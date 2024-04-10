@@ -1,0 +1,150 @@
+body {
+  background-color: #e9d2f4;
+  background-repeat: no-repeat;
+  user-select: none;
+  font-size: 24px;
+
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5em;
+  border-radius: 20px;
+}
+
+.jogo>.boardrow:nth-child(2) {
+  border-bottom: 4px solid #ffb3c6;
+}
+
+.jogo>.boardrow:nth-child(3) {
+  border-bottom: 4px solid #ffb3c6;
+}
+
+.jogo>.board-row>.square:nth-child(3) {
+  border: none;
+}
+
+/* Estilos para o status */
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para o status do vencedor */
+.status.winner {
+  color: green;
+}
+
+/* Estilo para o status do próximo jogador */
+.status.next-player {
+  color: blue;
+}
+
+.boardrow {
+  display: flex;
+}
+
+/* Estilos para o tabuleiro */
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Estilos para as células */
+.square {
+  background: #ffe5ec;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 120px;
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+  /* border-radius: 8px; */
+  margin: .4vh;
+  transition: 0.3s;
+  border: none;
+  color: #fb6f92;
+  border-right: 4px solid #ffb3c6;
+  transition: .5s;
+}
+
+.square:hover {
+  background-color: #ffb3c6;
+}
+
+.square:focus {
+  outline: none;
+}
+
+/* Estilo para o botão de reiniciar */
+.gameinfo {
+  margin-top: 20px;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+/* Estilos para os botões de movimento */
+.gameinfo ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.gameinfo ol>li {
+  margin-top: 10px;
+}
+
+.game-info ol>li button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.botao {
+  background-color: #ffb3c6;
+  color: #000;
+  border: none;
+  margin: .9em;
+  padding: .7em;
+  border-radius: 8px;
+
+}
+
+li>button {
+  color: #e9d9c9;
+  background-color: #98141c;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+
+}
+
+li button:hover {
+  background-color: #ab94eb;
+}
+
+.game-info, .status {
+  color: #98141c;  
+  font-size: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.modo{
+  text-align: center;
+  text-decoration: none;
+  background-color: #98141c;
+  color: #fff;
+  padding: 10px;
+  border-radius:  0em 2em 2em 0em;
+}
+
