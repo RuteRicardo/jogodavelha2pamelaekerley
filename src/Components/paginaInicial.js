@@ -7,7 +7,7 @@ function PaginaInicial() {
             <div className={Styles.container}>
 
                 <div className={Styles.gamecontainer}>
-                    <h1>Bem-vindo ao JOGO DO VELHO</h1>
+                    <h1>Bem-vindo ao JOGO DA VELHA</h1>
                     <Link className={Styles.startbutton} to='/facil'>Jogar Sozinho</Link>
                     <Link className={Styles.startbutton} to='/amigo'>Jogar com Amigo</Link>
                 </div>
